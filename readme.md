@@ -11,10 +11,10 @@ During user lifetime I gather friends notifications for a user and when the bund
 Due to the fact that we learn user’s daily “habits” means that the algorithm is supervised. And the learnt user’s daily average friends notifications is the model. In case of a new user which is not a part of the model his mean number of daily friends notifications is calculated as an average of all existing users. Such a user is called an “average user”.
 
 # Program execution
-Install python 3.5.X
-Run “pip install numpy pandas“
-Place bundle_alg.py and model.pkl to the same folder
-Run “python bundle_alg.py <path-to-notifications-csv-file>”
+1. Install python 3.5.X
+2. Run “pip install numpy pandas“
+3. Place bundle_alg.py and model.pkl to the same folder
+4. Run “python bundle_alg.py <path-to-notifications-csv-file>”
 # Output interpretation
 The program’s output example:
 
